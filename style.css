@@ -1,0 +1,98 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: gray;
+  margin: 0;
+  height: 100%;
+}
+
+img {
+  background-color: darkslategray;
+  height: 60px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("https://usamagazine.net/wp-content/uploads/2020/07/carpet-steam-cleaning-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+}
+
+.nav ul {
+  background-color: darkslategray;
+  list-style: none;
+  margin: 0;
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+.nav li {
+  background-color: darkslategray;
+  display: inline-block;
+  padding: 20px;
+  margin: 0 10px;
+}
+ 
+.nav a {
+  background-color: darkslategray;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+section {
+  width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-box {
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  vertical-align: top;
+  box-sizing: border-box;
+  margin-top: 100px;
+}
+
+#quote-offer-container {
+  background-color: darkslategray;
+  color: white;
+  margin-right: 40px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+#quote-form-container {
+  background-color: white;
+  padding: 20px;
+  height: 200px;
+  border-radius: 25px;
+}
+
+#quote-form {
+  background-color: white;
+  color: darkslategray;
+  text-align: center;
+}
+
+.form-field {
+  margin-bottom: 15px;
+}
+
+button {
+  border: none;
+  border-radius: 25px;
+  background-color: darkslategray;
+  color: white;
+  height: 40px;
+  width:  80px;
+}
